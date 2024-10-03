@@ -18,5 +18,7 @@
         </Grid.RowDefinitions>
 
         <TextBlock Margin="20" >KleurenPsychologie</TextBlock>
+        <Image Grid.Column="1" Margin="150 0 0 0" Source="/Properties/PXL.png" />
+        
     </Grid>
 </Window>
