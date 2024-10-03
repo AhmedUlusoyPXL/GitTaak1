@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:GitTaak1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="LightGray">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="1.5*" />
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Margin="20" >KleurenPsychologie</TextBlock>
     </Grid>
 </Window>
