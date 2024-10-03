@@ -23,6 +23,19 @@ namespace GitTaak1
         public MainWindow()
         {
             InitializeComponent();
+            
+        }
+
+        private void HoverImage(object sender, MouseEventArgs e)
+        {
+            if (e.RoutedEvent == MouseEnterEvent) 
+            {
+                mainGrid.Background = new SolidColorBrush(Colors.Red); 
+            }
+            else
+            {
+                mainGrid.Background = new SolidColorBrush(Colors.LightGray);
+            }
         }
     }
 }

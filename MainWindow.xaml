@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:GitTaak1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Background="LightGray">
+    <Grid Name="mainGrid" Background="LightGray">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
@@ -18,7 +18,7 @@
         </Grid.RowDefinitions>
 
         <TextBlock Margin="20" >KleurenPsychologie</TextBlock>
-        <Image Grid.Column="1" Margin="150 0 0 0" Source="/Properties/PXL.png" />
+        <Image MouseEnter="HoverImage" MouseLeave="HoverImage" Grid.Column="1" Margin="150,0,0,0" Source="/Properties/PXL.png" Name="HoverPicture" />
         
     </Grid>
 </Window>
