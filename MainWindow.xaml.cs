@@ -46,15 +46,19 @@ namespace GitTaak1
             {
                 case "imgRood":
                     txtCode.Text = "#FF0000";
+                    txtInformatie.Text = "Rood is de kleur van warmte";
                     break;
                 case "imgGroen":
                     txtCode.Text = "#008000";
+                    txtInformatie.Text = "Groen is de kleur van genezing";
                     break;
                 case "imgGeel":
                     txtCode.Text = "#FFFF00";
+                    txtInformatie.Text = "Geel is de kleur van levenslust";
                     break;
                 case "imgBlauw":
                     txtCode.Text = "#0000FF";
+                    txtInformatie.Text = "Blauw is de kleur van intelligentie";
                     break;
             }
         }
