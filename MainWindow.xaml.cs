@@ -31,7 +31,7 @@ namespace GitTaak1
         {
             if (e.RoutedEvent == MouseEnterEvent) 
             {
-                mainGrid.Background = new SolidColorBrush(Colors.Red); 
+                mainGrid.Background = new SolidColorBrush(Colors.White); 
             }
             else
             {
