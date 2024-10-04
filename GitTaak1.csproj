@@ -97,5 +97,17 @@
   <ItemGroup>
     <Resource Include="Properties\PXL.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Properties\Blauw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Properties\Rood %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Properties\Groen %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Properties\Geel.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

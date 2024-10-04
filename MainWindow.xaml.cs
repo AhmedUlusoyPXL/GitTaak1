@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Channels;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -35,6 +36,26 @@ namespace GitTaak1
             else
             {
                 mainGrid.Background = new SolidColorBrush(Colors.LightGray);
+            }
+        }
+
+        private void SelectedImage(object sender, MouseEventArgs e)
+        {
+            Image img = sender as Image;
+            switch (img.Name)
+            {
+                case "imgRood":
+                    txtCode.Text = "#FF0000";
+                    break;
+                case "imgGroen":
+                    txtCode.Text = "#008000";
+                    break;
+                case "imgGeel":
+                    txtCode.Text = "#FFFF00";
+                    break;
+                case "imgBlauw":
+                    txtCode.Text = "#0000FF";
+                    break;
             }
         }
     }
